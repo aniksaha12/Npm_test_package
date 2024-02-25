@@ -1,0 +1,24 @@
+{
+  "name": "hello-funtions",
+  "description": "just a package",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homePage": "https://aniksaha.in",
+  "repository": {
+    "url": "https://github.com/aniksaha12/Npm_test_package"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "aniksaha",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.2",
+    "typescript": "^5.3.3"
+  }
+}
